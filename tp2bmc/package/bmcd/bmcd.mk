@@ -3,8 +3,8 @@
 # bmcd
 ###########################################################
 
-BMCD_VERSION = v2.3.1
-BMCD_SITE = $(call github,turing-machines,bmcd,$(BMCD_VERSION))
+BMCD_VERSION = 8b425e04b38ba1d20255bafc6ea8e08925e2f326
+BMCD_SITE = $(call github,barrenechea,bmcd,$(BMCD_VERSION))
 BMCD_LICENSE = Apache-2.0
 BMCD_LICENSE_FILES = LICENSE
 BMCD_DEPENDENCIES += libopenssl
