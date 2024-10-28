@@ -9,7 +9,7 @@ BMCD_LICENSE = Apache-2.0
 BMCD_LICENSE_FILES = LICENSE
 BMCD_DEPENDENCIES += libopenssl
 BMCD_CARGO_ENV := PKG_CONFIG_ALLOW_CROSS=1
-BMCD_CARGO_ENV += CC_armv7_unknown_linux_gnueabi="arm-linux-gcc"
+BMCD_CARGO_ENV += CC_armv7_unknown_linux_gnueabihf="arm-linux-gcc"
 
 # A copy of default build commands but with --path amended, since we have a virtual manifest.
 define BMCD_INSTALL_TARGET_CMDS
